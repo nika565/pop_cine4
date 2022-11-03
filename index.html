@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pop Cine</title>
+  <link rel="stylesheet" href="/popcine/style.css">
+</head>
+
+<body>
+  <header>
+    <div id="barra_topo" class="p-4 text-white">
+        <h1 id="titulo_pag">&#9733 &#9733 &#9733 POP CINE &#9733 &#9733 &#9733</h1>
+    </div>
+
+    <div id = "barratopo2"></div>
+    
+</header> 
+<div id = "embreve">
+  <h2 class="section-title"><ol><li>Em Alta</li></ol></h2>
+
+  <div class="media-container">
+    <div class="media-scroller">
+      
+      <!--   Group 1 -->
+      <div class="media-group" id="group-1">
+        <div class="media-element">
+          <img class="l1"
+          src="/popcine/img/img1.png"
+          alt="">
+        </div>
+        
+        
+        
+        <a class="next" href="#group-2" aria-label="next">
+          <svg>
+            <use href="#next"></use>
+          </svg>
+        </a>
+      </div>
+      
+      <!-- Group 2   -->
+      <div class="media-group" id="group-2">
+        <a class="previous" href="#group-1">
+          <svg>
+            <use href="#previous"></use>
+          </svg>
+        </a>
+        <div class="media-element">
+          <img class="l1"
+          src="/popcine/img/img2.png"
+          alt="">
+        </div> 
+        <a class="next" href="#group-3" aria-label="next">
+          <svg>
+            <use href="#next"></use>
+          </svg>
+        </a>
+      </div>
+      
+      <!-- Group 3   -->
+      <div class="media-group" id="group-3">
+        <a class="previous" href="#group-2">
+          <svg>
+            <use href="#previous"></use>
+          </svg>
+        </a>
+        <div class="media-element">
+          <img class="l1"
+          src="/popcine/img/vibezz_186383769.jpg"
+          alt="">
+        </div>
+        <a class="next" href="#group-4" aria-label="next">
+          <svg>
+            <use href="#next"></use>
+          </svg>
+        </a>
+      </div>
+      
+      <!--  Group 4  -->
+      <div class="media-group" id="group-4">
+        <a class="previous" href="#group-3">
+          <svg>
+            <use href="#previous"></use>
+          </svg>
+        </a>
+        <div class="media-element">
+          <img class="l1"
+          src="/popcine/img/maxresdefault.jpg"
+          alt="">
+        </div>
+      </div>
+      
+      <div class="navigation-indicators">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<br><h1>Selecione a Cidade:</h1>
+
+<div class="botao">
+
+  <div >
+    <a href="/sao_paulo/sp.html"><button id="botoes" type="button" class="btn btn-primary btn-lg">São Paulo</button></a>
+  </div>
+  
+  <div >
+    <a href="/rio_janeiro/rio.html"><button id="botoes" type="button" class="btn btn-secondary btn-lg">Rio de Janeiro</button></a>
+  </div>
+</div>
+  
+  <svg>
+    <symbol id="next" viewBox="0 0 256 512">
+      <path fill="white"
+      d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+    </symbol>
+    
+    <symbol id="previous" viewBox="0 0 256 512">
+      <path fill="white"
+        d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+    </symbol>
+  </svg>
+  
+
+  
+  <footer>
+    <div id="container-footer">
+      <div id="div_logos">
+        <h2>Siga-nos nas redes</h2>
+        <img id="logos" src="img/logo_facebook.png" alt="">
+        <img id="logos" src="img/logo_instagram.png" alt="">
+        <img id="logos" src="img/logo_linkedin2.png" alt="">
+        <img id="logos" src="img/logo_youtube.png" alt="">
+      </div>
+      <div id="div_menu">
+        <h2>Menu</h2><br>
+        <h4>&#9733Em Cartaz</h4><br>
+        <h4>&#9733Lançamentos</h4><br>
+        <h4>&#9733Em Breve</h4><br>
+        <h4>&#9733Localização</h4><br>
+      </div>
+
+      <div id="politicas">
+        <h2>Políticas</h2><br>
+        <h4>&#9733Prevenções</h4><br>
+        <h4>&#9733Meia-entrada</h4><br>
+        <h4>&#9733Trocas e Cancelamentos</h4><br>
+        <h4>&#9733Termos de Uso</h4><br>
+        <h4>&#9733Privacidade e Segurança</h4><br>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
